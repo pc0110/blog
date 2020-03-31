@@ -170,3 +170,68 @@ applivcation  整个项目运行期间都有效（关闭服务器，其他项目
 1.以上的4个范围对象，通过 setAttribute属性赋值，通过getAttribute（）取值
 2.尽量使用最小的范围，因为对象的范围越大，造成的性能损耗越大
 
+## **HTTP常用方法：**
+
+**（1）GET方法：获取资源**
+
+GET方法是用来请求URL指定的资源。指定资源经服务器端解析后返回响应内容。
+
+例：返回index.html的页面资源
+
+```
+`GET /index.html HTTP/1.1``Host: www.php.cn`
+```
+
+**（2）POST方法：传输实体主题**
+
+POST方法用来传输实体的主体
+
+例：返回submit.cgi接收数据的处理结果
+
+```
+`POST /submit.cgi HTTP/1.1``Host:www.php.cn``Content-Length:1560`
+```
+
+**（3）PUT方法：传输文件**
+
+PUT方法用来传输文件。像FTP协议的文件上传一样，要求在请求报文主体中包含文件的内容，然后保存到请求URL指定的位置。不太常用。
+
+例：响应返回状态码204 No Content(比如：该html已存在于服务器上)
+
+```
+`PUT /example.html HTTP/1.1``Host:www.php.cn``Content-Type: text/html``Content-Length: 1560`
+```
+
+**（4）HEAD方法：获取报文首部**
+
+HEAD方法和GET方法一样，只是不返回报文主体部分。用于确认URL的有效性及资源更新的日期时间等。
+
+例：返回index.html有关的响应首部
+
+```
+`HEAD /index.html HTTP/1.1``Host:www.php.cn`
+```
+
+**（5）DELETE方法：删除文件**
+
+DELETE方法用来删除文件，是PUT的相反方法。DELETE方法按请求URL删除指定的资源。也不常用。
+
+例：响应返回状态码204 No Content(比如：该html已从该服务器上删除)
+
+```
+`DELETE /example.html HTTP/1.1``Host:www.php.cn`
+```
+
+**（6）OPTIONS方法：询问支持的方法**
+
+OPTIONS方法用来查询针对请求URL指定的资源支持的方法。
+
+```
+`OPTIONS * HTTP/1.1``Host:www.php.cn`
+```
+
+**响应**
+
+```
+`HTTP/1.1 200 OK ``Allow:GET,POST,HEAD,OPTIONS`
+```
