@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 categories: Kategorien
 search: Suche
 tags: Tags
@@ -17,3 +18,24 @@ powered_by: Powered by
 rss_feed: RSS Feed
 category: Kategorie
 tag: Tag
+=======
+categories: Kategorien
+search: Suche
+tags: Tags
+tagcloud: Tag Cloud
+tweets: Tweets
+prev: zurück
+next: weiter
+comment: Kommentare
+archive_a: Archiv
+archive_b: "Archive: %s"
+page: Seite %d
+recent_posts: letzter Beitrag
+newer: Neuer
+older: Älter
+share: Teilen
+powered_by: Powered by
+rss_feed: RSS Feed
+category: Kategorie
+tag: Tag
+>>>>>>> e38011719beca8f9c3c9ce58b48689d26f37629e

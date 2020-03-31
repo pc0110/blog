@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 .DS_Store
 Thumbs.db
 db.json
 *.log
 node_modules/
 public/
+=======
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+>>>>>>> e38011719beca8f9c3c9ce58b48689d26f37629e
 .deploy*/

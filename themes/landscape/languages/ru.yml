@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 categories: Категории
 search: Поиск
 tags: Метки
@@ -16,4 +17,24 @@ share: Поделиться
 powered_by: Создано с помощью
 rss_feed: RSS-каналы
 category: Категория
+=======
+categories: Категории
+search: Поиск
+tags: Метки
+tagcloud: Облако меток
+tweets: Твиты
+prev: Назад
+next: Вперед
+comment: Комментарии
+archive_a: Архив
+archive_b: "Архив: %s"
+page: Страница %d
+recent_posts: Недавние записи
+newer: Следующий
+older: Предыдущий
+share: Поделиться
+powered_by: Создано с помощью
+rss_feed: RSS-каналы
+category: Категория
+>>>>>>> e38011719beca8f9c3c9ce58b48689d26f37629e
 tag: Метка

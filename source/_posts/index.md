@@ -15,6 +15,24 @@ charAt(i)
 
 暴力破解
 
+<<<<<<< HEAD
+=======
+# Git
+
+- git init  初始化
+- git status 查看信息
+- git add 从工作区加载到暂存区
+- git commit 从暂存区提交到本地仓库
+- git log 
+- git branch
+- git branch  br1 //创建一个br1的分支
+- git checkout br1 //切换分支
+- git branch -d br1 //删除br1分支
+- git push //推送到服务器（远程仓库）上面
+- git pull //将服务器的代码clone的本地
+- git merge //合并
+
+>>>>>>> e38011719beca8f9c3c9ce58b48689d26f37629e
 
 # 沙箱机制（Sandboxie）
 #### 一、沙箱是什么？

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <% if (theme.gauges_analytics){ %>
 <!-- Gaug.es Analytics -->
 <script type="text/javascript">
@@ -16,3 +17,23 @@
 </script>
 <!-- End Gaug.es Analytics -->
 <% } %>
+=======
+<% if (theme.gauges_analytics){ %>
+<!-- Gaug.es Analytics -->
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '<%= theme.gauges_analytics %>');
+    t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+    t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+<!-- End Gaug.es Analytics -->
+<% } %>
+>>>>>>> e38011719beca8f9c3c9ce58b48689d26f37629e

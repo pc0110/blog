@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <% if (site.categories.length){ %>
   <div class="widget-wrap">
     <h3 class="widget-title"><%= __('categories') %></h3>
@@ -6,3 +7,13 @@
     </div>
   </div>
 <% } %>
+=======
+<% if (site.categories.length){ %>
+  <div class="widget-wrap">
+    <h3 class="widget-title"><%= __('categories') %></h3>
+    <div class="widget">
+      <%- list_categories({show_count: theme.show_count}) %>
+    </div>
+  </div>
+<% } %>
+>>>>>>> e38011719beca8f9c3c9ce58b48689d26f37629e

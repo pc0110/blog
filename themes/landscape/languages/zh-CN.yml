@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 categories: 分类
 search: 搜索
 tags: 标签
@@ -16,4 +17,24 @@ share: Share
 powered_by: Powered by
 rss_feed: RSS Feed
 category: Category
+=======
+categories: 分类
+search: 搜索
+tags: 标签
+tagcloud: 标签云
+tweets: 推文
+prev: 上一页
+next: 下一页
+comment: 留言
+archive_a: 归档
+archive_b: 归档：%s
+page: 第 %d 页
+recent_posts: 最新文章
+newer: Newer
+older: Older
+share: Share
+powered_by: Powered by
+rss_feed: RSS Feed
+category: Category
+>>>>>>> e38011719beca8f9c3c9ce58b48689d26f37629e
 tag: Tag

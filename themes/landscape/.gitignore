@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 .DS_Store
 node_modules
+=======
+.DS_Store
+node_modules
+>>>>>>> e38011719beca8f9c3c9ce58b48689d26f37629e
 tmp
