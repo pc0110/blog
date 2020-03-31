@@ -15,5 +15,29 @@ tags: -Linux
 - 黄色：表示设备文件
 - 灰色：表示其它文件
 
+ls
 
- 
+pwd 
+
+madir
+
+rm
+
+mv
+
+cp
+
+cat
+
+ps
+
+grep
+
+top
+
+tar 
+
+systemctl
+
+
+
