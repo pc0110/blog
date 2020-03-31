@@ -11,13 +11,14 @@ tags: Git
 - git add 从工作区加载到暂存区
 - git commit 从暂存区提交到本地仓库 -m "frist commit"
 - git log 
-- git branch
+- git branch -a
 - git branch  br1 //创建一个br1的分支
 - git checkout br1 //切换分支
 - git branch -d br1 //删除br1分支
 - git push //推送到服务器（远程仓库）上面  -u origin master
 - git pull //将服务器的代码clone的本地 
 - git merge //合并
+- git checkout -b //修改分支
 
 
 
